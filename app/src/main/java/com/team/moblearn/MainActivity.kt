@@ -20,10 +20,6 @@ class MainActivity : AppCompatActivity() {
 }
 
 
-
-
-
-
 //A commit-test-comment so the merge gets accepted
 
 // keith's changessss
