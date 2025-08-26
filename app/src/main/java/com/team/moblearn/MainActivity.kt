@@ -1,6 +1,7 @@
 package com.team.moblearn
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -15,6 +16,25 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
+
+        val students = mutableListOf(
+            "Zhe Hsiang Hau",
+            "Ee Szen Lee",
+            "Kai Xiang Leong",
+            "Keshen Nareshchandra",
+            "Jia Xiang Saw",
+            "You Wei, Thaddeus Teh",
+            "Dominic Wei Zhe",
+            "Juin Yi, Jeremy Ho",
+            "Yong Sheng Loh",
+            "Kwang Hau, Alex Sim",
+            "Yee Ling Wong"
+        )
+
+        for(i in 0 until students.size-1 step 2) {
+            Log.d("teams", students[i])
+            Log.d("teams", students[i+1])
         }
     }
 }
