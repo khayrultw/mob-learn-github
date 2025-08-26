@@ -15,4 +15,4 @@
 ⣠⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠻⣄
 
 
-Merge conflict is comming
+Merge conflict is coming
