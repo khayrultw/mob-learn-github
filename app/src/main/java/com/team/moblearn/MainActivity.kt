@@ -18,3 +18,5 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+
+//Potato is goog!
