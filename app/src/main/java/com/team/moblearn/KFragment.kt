@@ -8,21 +8,6 @@ import android.view.View
 import android.view.ViewGroup
 
 class KFragment : Fragment() {
-
-    private val k: Int = 0
-
-    companion object {
-        fun newInstance() = KFragment()
-    }
-
-    private val viewModel: KViewModel by viewModels()
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-        // TODO: Use the ViewModel
-    }
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
